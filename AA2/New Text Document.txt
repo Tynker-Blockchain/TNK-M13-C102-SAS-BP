@@ -1,0 +1,14 @@
+AA2: "Change get requests to post requests" 
+
+AA2 Solution to Volt Mills: https://www.tynker.com/code/project/64f70c423b17412e35380006 
+
+>> In this AA2, we use the XMLHttpRequest object to send a POST request to your server. We define the URL for the POST request, create a data object with the parameters we want to send, convert it to JSON, and then send the request. Once the request is successful, it will redirect to "wait.html."
+Make sure our server is configured to handle POST requests and parse JSON data in the request body appropriately.  To handle a POST request sent by the placeOrder function, we can modify our route to accept POST requests and retrieve the data from the request's JSON body. Here's how we can update your code:
+
+* 		We import jsonify from Flask to send a JSON response if needed.
+* 		We add methods=['POST'] to the @app.route('/payment') decorator to specify that this route should only handle POST requests.
+* 		We use request.get_json() to parse the JSON data from the request body sent by the placeOrder function.
+* 		We return a JSON response with a message and status, which you can customize as needed.
+Ensure that the placeOrder function in your JavaScript code sends a POST request with a JSON payload to the "/payment" endpoint.
+
+AA2 BP Volt Mills: https://www.tynker.com/code/project/64fef77a1cf6a92ce0496f34 

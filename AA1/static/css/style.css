@@ -1,0 +1,97 @@
+/* Custom CSS styles go here */
+body {
+  background-color: #f8f9fa;
+}
+
+.status-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.status-connected {
+    background-color: green;
+}
+
+.status-disconnected{
+    background-color: red;
+}
+
+.dropdown-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.dropdown-menu{
+  width: max-content;
+}
+
+.card-rounded-span {
+    width: fit-content;
+    min-width: 70px;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 40px;
+    background-color: rgba(93, 134, 158, 0.466);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.option-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-button>img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.transactionsContainer {
+    height: 200px;
+    overflow: scroll;
+}
+
+#card1, #card2{
+    overflow: hidden;
+    height: 90vh;
+}
+
+.list-group-item{
+  border: none;
+  background-color: #ffffff00;
+  color: #f8f9fa;
+  overflow-wrap: break-word;
+  width: inherit;
+}
+
+.list-group{
+    overflow: scroll;
+    border: none;
+    background-color: none;
+    height: 90vh;
+}
+
+.sidebar{
+    background-color: aqua;
+}
+
+/* Style for Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 5px;
+    /* Width of the vertical scroll bar */
+    height: 5px;
+    /* Height of the horizontal scroll bar */
+}
+
+​ ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scroll bar thumb */
+    border-radius: 5px;
+    /* Rounded corners */
+}
