@@ -1,0 +1,7 @@
+AA1: "Secure the payment address" so that the hacker can not change it on web page. so send a variable instaded of sending volt mills account address through request. 
+
+
+
+AA1: https://bfs-dev.tynker.com/code/project/65113bdfc7f3d339cd3fd842 
+
+>> open cart.js script and ckeck the changes in placeOrder function. 
