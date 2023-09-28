@@ -191,7 +191,7 @@ def gas_price_data():
         return jsonify(error="Failed to fetch gas prices.")
 
 
-#Update the /payment decorator to handle POST requests 
+#Update the /payment route to handle POST requests 
 @app.route('/payment', methods=['POST'])
 def payment():
     global receiverAddress, tnxAmount, requestUrl, paymentStatus
